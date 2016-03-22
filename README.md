@@ -31,19 +31,17 @@ Just run:`npm install -g babel-cli watchify node-sass`
 
 ##Folderstructure
 * Boilerplate folder
-* `dist` - *this is the folder you see in your browser, do not edit here, everything in this folder will be deleted or overwritten by `run.sh`*
+* `web` - *this is the folder you see in your browser. You can edit your static assets and HTML here
 * `.tmp` - Temp folder
-* `src` - *Here is where you code*
-	* `assets` - This folder will be copied to `dist`
-	* `scripts` - Your javascript folder. You need to keep the script.js as entry point for the module bundler.
+* `src` - *Here is where you code ES6 and SASSS*
+	* `es6` - Your javascript folder. You need to keep the script.js as entry point for the module bundler.
 	* `scss` - Your SASS folder
 
 ##Drawbacks
-1. You have to call `./copy.sh` if you changed some HTML files or assets. If you some command line tool which copies files after change please tell me
-2. You need to refresh your browser manually
-3. I would not use it for big project
+1. You need to refresh your browser manually
+2. I would not use it for big project
 
 ##Feedback and participation
 If you have any feedback please tell me. If you find bugs please open an issue or better a pull request. I'm open to many ideas so long they keep in the spirit of the project:
 
-> You shouldn't start a frontend experiment by fixing npm dependencies
+> No one should start a frontend experiment by fixing npm dependencies
