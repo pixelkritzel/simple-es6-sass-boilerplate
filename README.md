@@ -31,9 +31,9 @@ Just run:`npm install -g babel-cli watchify node-sass`
 
 ##Folderstructure
 * Boilerplate folder
-* `web` - *this is the folder you see in your browser. You can edit your static assets and HTML here
+* `web` - this is the folder you see in your browser. You can edit your static assets and HTML here
 * `.tmp` - Temp folder
-* `src` - *Here is where you code ES6 and SASSS*
+* `src` - Here is where you code ES6 and SASSS
 	* `es6` - Your javascript folder. You need to keep the script.js as entry point for the module bundler.
 	* `scss` - Your SASS folder
 
