@@ -23,6 +23,12 @@ The other stuff are NPM packages which you need in your `$PATH`
 
 Just run:`npm install -g babel-cli watchify node-sass`
 
+And you need to install the babel presets in your $HOME folder
+````
+cd $HOME
+npm install babel-preset-es2015 babel-preset-react
+````
+
 ##Usage
 1. Download the Zip-File and uncompress it
 2. Enter the boilerplate folder in a terminal
